@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/gustimaulan/efe-redirect#readme",
   "devDependencies": {
-    "@cloudflare/wrangler": "^1.21.0"
+    "wrangler": "^4.10.0"
   }
 }
