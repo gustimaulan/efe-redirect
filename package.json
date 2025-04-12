@@ -1,0 +1,27 @@
+{
+  "name": "efe-redirect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "login": "npx wrangler login",
+    "dev": "npx wrangler dev",
+    "deploy": "npx wrangler publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustimaulan/efe-redirect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gustimaulan/efe-redirect/issues"
+  },
+  "homepage": "https://github.com/gustimaulan/efe-redirect#readme",
+  "devDependencies": {
+    "@cloudflare/wrangler": "^1.21.0"
+  }
+}
