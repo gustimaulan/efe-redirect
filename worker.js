@@ -8,9 +8,9 @@ async function handleRequest(request) {
     const url = new URL(request.url)
     
     if (url.hostname === 'efeindonesia.id' || url.hostname.endsWith('.efeindonesia.id')) {
-      if (url.hostname !== 'page.efeindonesia.id') {
+      if (url.hostname !== 'efeindonesia.com') {
         const searchParams = url.search
-        const newUrl = `https://page.efeindonesia.id/${searchParams}`
+        const newUrl = `https://efeindonesia.com/${searchParams}`
         return Response.redirect(newUrl, 301)
       }
     }
